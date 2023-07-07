@@ -7,7 +7,7 @@ function index()
 
 	entry({"admin", "vpn"}, firstchild(), "VPN", 45).dependent = false
 
-	entry({"admin", "vpn", "zerotier"}, alias("admin", "vpn", "zerotier", "general"), _("client"), 99)
+	entry({"admin", "vpn", "zerotier"}, alias("admin", "vpn", "zerotier", "general"), _("SD-WAN"), 99)
 	entry({"admin", "vpn", "zerotier", "general"}, cbi("zerotier/settings"), _("Base Setting"), 1)
 	entry({"admin", "vpn", "zerotier", "log"}, form("zerotier/info"), _("Interface Info"), 2)
 
