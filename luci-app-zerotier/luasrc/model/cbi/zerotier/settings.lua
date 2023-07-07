@@ -16,7 +16,7 @@ e.password = true
 e.rmempty = false
 
 e = t:option(Flag, "nat", translate("Auto NAT Clients"))
-e.description = translate("Allow clients access your LAN network")
+e.description = translate("服务商：xxxxx")
 e.default = 0
 e.rmempty = false
 
