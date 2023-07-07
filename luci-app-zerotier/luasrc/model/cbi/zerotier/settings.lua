@@ -1,7 +1,7 @@
 a = Map("zerotier")
 a.title = translate("Client")
 
-a:section(SimpleSection).template  = "zerotier/zerotier_status"
+a:section(SimpleSection).template  = "Client/zerotier_status"
 
 t = a:section(NamedSection, "sample_config", "Client")
 t.anonymous = true
