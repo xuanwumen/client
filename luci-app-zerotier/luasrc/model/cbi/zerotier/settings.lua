@@ -3,7 +3,7 @@ a.title = translate("智慧组网")
 
 a:section(SimpleSection).template  = "zerotier/zerotier_status"
 
-t = a:section(NamedSection, "sample_config", "Client")
+t = a:section(NamedSection, "sample_config", "zerotier")
 t.anonymous = true
 t.addremove = false
 
