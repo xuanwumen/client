@@ -11,7 +11,7 @@ e = t:option(Flag, "enabled", translate("Enable"))
 e.default = 0
 e.rmempty = false
 
-e = t:option(DynamicList, "join", translate('Network ID'))
+e = t:option(DynamicList, "join", translate('序列号'))
 e.password = true
 e.rmempty = false
 
